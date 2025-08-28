@@ -5,7 +5,6 @@ import ScrollToMainPage from "../components/landing/ScrollToMainPage";
 import { Suspense, useEffect, useState } from "react";
 import { useRouter } from 'next/router';
 import { Loader } from "../components/landing/Loader";
-import { Howl } from "howler";
 import { useRef } from "react";
 import { KeyboardControls, Text, useKeyboardControls } from "@react-three/drei";
 function LandingPage() {

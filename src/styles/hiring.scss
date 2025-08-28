@@ -1,0 +1,19 @@
+@use 'theme';
+
+.hiringDiv {
+    height: 20vh;
+    background-color: theme.$focused-blue-color;
+    color: white;
+    font-family: 'Arial';
+    padding-left: 25%;
+}
+
+.hiringDiv a {
+    color: black;
+}
+
+@media only screen and (max-width: 900px) {
+    .hiringDiv {
+        padding-left: 5%;
+    }
+}

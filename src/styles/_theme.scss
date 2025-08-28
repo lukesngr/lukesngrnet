@@ -1,0 +1,16 @@
+$base-color: #242321;
+$normal-pink-color: #ff7af8;
+$normal-blue-color: #7acaff;
+$focused-pink-color: #f538eb;
+$focused-blue-color: #1399f2;
+$dialog-color: #c0c0c0;
+$pastel-white: #f9f6f2;
+
+@mixin normal-border($direction: to bottom) {
+    border-image-source: linear-gradient($direction, $normal-blue-color, $normal-pink-color)  !important;
+    border-image-slice: 1 !important;
+}
+
+@mixin focused-border {
+    border-image-source: linear-gradient($focused-blue-color, $focused-pink-color) !important;
+}

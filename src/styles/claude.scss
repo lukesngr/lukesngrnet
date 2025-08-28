@@ -1,0 +1,17 @@
+.claudeChatDiv {
+    background-image: url('/backgroundgraphics.jpg');
+    background-repeat: repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminalWindow {
+    background-color: #1A0124;
+    width: 600px;
+    height: 70%;
+    color: white;
+    white-space: pre-wrap;
+}

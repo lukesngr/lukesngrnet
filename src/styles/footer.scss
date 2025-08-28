@@ -1,0 +1,33 @@
+@use 'theme';
+
+.footerDiv {
+    width: 100%;
+    height: fit-content;
+    background-color: theme.$base-color;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerDiv a {
+    padding: 0.5em;
+}
+
+.linkedinLink {
+    margin-left: 5vw;
+    svg {
+        fill: theme.$normal-blue-color;
+    }  
+}
+
+.githubLink svg{
+    fill: theme.$pastel-white;
+}
+
+.mediumLink svg{
+    fill: theme.$normal-pink-color;
+}
+
+.dialogBoxReopen {
+    color: theme.$pastel-white;
+    height: 40px;
+}

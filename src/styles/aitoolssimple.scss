@@ -1,0 +1,23 @@
+.centeredDescription {
+    margin-left: 2em;
+}
+
+img {
+    width: 25vw;
+    height: auto;
+}
+
+.warning {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: none;
+    }
+
+    .warning {
+        display: inline;
+    }
+
+}

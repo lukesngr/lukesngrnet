@@ -1,0 +1,35 @@
+.mediumFeedTitle {
+    text-align: center;
+}
+
+.mediumFeedDiv {
+    width: 100%;
+    height: 600px; 
+    background-color: #C0AFAF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mediumFeedDiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mediumFeedTitle {
+    font-family: "Crimson Text", serif;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.postUndertext {
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2;
+}

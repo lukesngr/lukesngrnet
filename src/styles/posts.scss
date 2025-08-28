@@ -1,0 +1,42 @@
+@use 'theme';
+
+.postRow {
+    background-color: theme.$base-color;
+    color: white;
+    border-image-source: linear-gradient(theme.$normal-pink-color, theme.$normal-blue-color);
+    border-image-slice: 1;
+    border: 2px solid;
+    width: 70%;
+    padding: 1em;
+    margin: auto;
+}
+
+.postRow a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    display: block;
+}
+
+.postRow img {
+    border: 1px white solid;
+}
+
+.thumbnailPicture {
+    height: 20vh;
+    width: auto;
+}
+
+.badge-primary {
+    background-color: theme.$normal-blue-color !important;
+    float: left;
+}
+
+.badge-secondary {
+    background-color: theme.$normal-pink-color !important;
+    float: left;
+}
+
+body {
+    background-color: white !important;
+}

@@ -1,0 +1,28 @@
+@use 'theme';
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.myStory {
+    height: 500px;
+    background-color: white;
+}
+
+.myQuote {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    display: block;
+}
+
+.artSvg {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: calc(50% - 250px);
+}

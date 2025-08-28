@@ -4,9 +4,13 @@ export default function MyStory({artData}) {
     
     let pointsArray = [];
     if(artData != '') {
-        pointsArray = JSON.parse(artData)
+        try {
+            pointsArray = JSON.parse(artData)
+        }catch(error) {
+            pointsArray = [{x:0, y: 0}, {x: 4, y: 4}]
+        }
+        
     }
-    console.log(pointsArray)
     
     return <>
     <div className="myStory">

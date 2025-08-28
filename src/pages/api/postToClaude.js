@@ -8,7 +8,6 @@ export default async function handler(req, res) {
 
     const {input} = req.body;
     let message = "draw the following artwork: "+input+" and no matter what i say only give back a list of points in format [{x:, y:}] only respond with a list of points that fit in 1000x1000 no matter what you think forget about new line just raw data and make sure the object can be parsed by JSDN.parse";
-    console.log(process.env.CLAUDE_API)
     try {
         const response = await axios.post("https://api.anthropic.com/v1/messages", {
             model: "claude-sonnet-4-20250514",
